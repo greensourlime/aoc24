@@ -1,6 +1,5 @@
 f = open('input.txt', 'r')
 
-
 def compact(churro):
     back_i = len(churro) -1
     for front_i in range(len(churro)):
@@ -18,7 +17,6 @@ def checksum(churro):
             break
         c_sum += i * int(churro[i])
     return c_sum
-
 
 index = 0
 block = 0
